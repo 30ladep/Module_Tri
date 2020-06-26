@@ -1,0 +1,45 @@
+.style-1735 {
+  background-color: white; }
+  .style-1735 .container .img-project div {
+    width: 50%; }
+    .style-1735 .container .img-project div img {
+      max-width: 100%; }
+  .style-1735 .container .row {
+    margin-top: 40px; }
+    .style-1735 .container .row .title-left {
+      font-size: 24px;
+      color: #333333;
+      font-weight: bold; }
+    .style-1735 .container .row .button-left {
+      text-align: center;
+      background-color: #23A455;
+      font-size: 16px;
+      border: none;
+      font-weight: bold;
+      width: 100%;
+      padding: 18px; }
+      .style-1735 .container .row .button-left a {
+        color: #ffffff;
+        text-decoration: none; }
+      .style-1735 .container .row .button-left i {
+        top: 39%;
+        right: 22px; }
+      .style-1735 .container .row .button-left:hover {
+        background-color: #4aaa6f; }
+    .style-1735 .container .row .col-content-right {
+      padding-left: 40px; }
+      .style-1735 .container .row .col-content-right .title-header-right {
+        font-size: 16px;
+        color: #7a7a7a; }
+    .style-1735 .container .row .sed {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold; }
+      .style-1735 .container .row .sed i {
+        color: #23A455;
+        font-size: 16px; }
+      .style-1735 .container .row .sed .sed-title {
+        margin-left: 15px; }
+    .style-1735 .container .row .title-footer {
+      font-size: 16px;
+      color: #7a7a7a; }

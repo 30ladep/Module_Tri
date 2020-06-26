@@ -1,0 +1,69 @@
+$mau-den: #333333;
+$mau-xanh: #23A455;
+$mau-trang: #ffffff;
+$mau-xam: #7a7a7a;
+.style-1735 {
+    background-color: white;
+    .container {
+        .img-project {
+            div {
+                width: 50%;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        .row {
+            margin-top: 40px;
+            .title-left {
+                font-size: 24px;
+                color: $mau-den;
+                font-weight: bold;
+            }
+            .button-left {
+                text-align: center;
+                background-color: $mau-xanh;
+                font-size: 16px;
+                border: none;
+                font-weight: bold;
+                width: 100%;
+                padding: 18px;
+                // margin-top: 30px;
+                a {
+                    color: $mau-trang;
+                    text-decoration: none;
+                }
+                i {
+                    top: 39%;
+                    right: 22px;
+                }
+                &:hover {
+                    background-color: #4aaa6f;
+                }
+            }
+            .col-content-right {
+                padding-left: 40px;
+                .title-header-right {
+                    font-size: 16px;
+                    color: $mau-xam;
+                }
+            }
+            .sed {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-weight: bold;
+                i {
+                    color: $mau-xanh;
+                    font-size: 16px;
+                }
+                .sed-title {
+                    margin-left: 15px;
+                }
+            }
+            .title-footer {
+                font-size: 16px;
+                color: $mau-xam;
+            }
+        }
+    }
+}

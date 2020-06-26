@@ -1,0 +1,36 @@
+.container {
+  margin-top: 100px; }
+  .container .row .box-hover .dash {
+    height: 3px;
+    width: 30%;
+    background-color: #61CE70;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: width 0.5s ease; }
+    .container .row .box-hover:hover .dash {
+      width: 98%;
+      transition: width 0.5s ease; }
+  .container .row .box-hover .title {
+    margin-top: 45px;
+    font-size: 34px;
+    font-weight: bold; }
+  .container .row .box-hover .content {
+    font-size: 16px;
+    color: #7a7a7a; }
+  .container .row-right {
+    text-align: center; }
+    .container .row-right .fas {
+      font-size: 32px;
+      color: #61CE70; }
+    .container .row-right .small-title {
+      margin: 6px;
+      font-size: 20px;
+      font-weight: bold; }
+    .container .row-right .col-md-6 {
+      padding: 5px; }
+      .container .row-right .col-md-6 .box {
+        background-color: #F5F5F5;
+        height: 170px;
+        padding-top: 20px; }
+    .container .row-right .small-content {
+      color: #7a7a7a; }
