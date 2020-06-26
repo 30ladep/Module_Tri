@@ -1,0 +1,87 @@
+.style-30 {
+    .tri {
+        .box-content {
+            position: relative;
+            transition: all 0.5s ease;
+            .img {
+                height: 405px;
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+            .text-overlow {
+                -webkit-line-clamp: 2;
+                width: 100%;
+                line-height: 25px;
+                height: 50px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+            }
+        }
+        .infor {
+            opacity: 0;
+            transition: all 0.5s ease;
+            a {
+                position: absolute;
+                top: 33%;
+                left: 29%;
+                background-color: rgb(108, 207, 105);
+                color: white;
+                border: navajowhite 1px solid;
+                border-radius: 25px;
+                width: 147px;
+                padding: 10px;
+                font-weight: bold;
+                &:hover {
+                    background-color: white;
+                    color: rgb(108, 207, 105);
+                }
+            }
+        }
+        .cart {
+            opacity: 0;
+            transition: all 0.5s ease;
+            a {
+                position: absolute;
+                top: 42%;
+                left: 29%;
+                background-color: rgb(108, 207, 105);
+                color: white;
+                border: 1px solid;
+                border-radius: 25px;
+                width: 147px;
+                padding: 10px;
+                font-weight: bold;
+                &:hover {
+                    background-color: white;
+                    color: rgb(108, 207, 105);
+                }
+            }
+        }
+        .gach-chan {
+            transition: width 0.5s ease;
+            height: 3px;
+            background-color: lime;
+            width: 0%;
+        }
+        &:hover {
+            transition: all 0.5s ease;
+            .box-content {
+                opacity: 0.4;
+            }
+            .cart {
+                opacity: 1;
+            }
+            .infor {
+                opacity: 1;
+            }
+            .gach-chan {
+                transition: width 0.5s ease;
+                width: 100%;
+            }
+        }
+    }
+}

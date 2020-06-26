@@ -1,0 +1,67 @@
+.style-30 .tri .box-content {
+  position: relative;
+  transition: all 0.5s ease; }
+  .style-30 .tri .box-content .img {
+    height: 405px; }
+    .style-30 .tri .box-content .img img {
+      max-width: 100%;
+      max-height: 100%; }
+  .style-30 .tri .box-content .text-overlow {
+    -webkit-line-clamp: 2;
+    width: 100%;
+    line-height: 25px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; }
+.style-30 .tri .infor {
+  opacity: 0;
+  transition: all 0.5s ease; }
+  .style-30 .tri .infor a {
+    position: absolute;
+    top: 33%;
+    left: 29%;
+    background-color: #6ccf69;
+    color: white;
+    border: navajowhite 1px solid;
+    border-radius: 25px;
+    width: 147px;
+    padding: 10px;
+    font-weight: bold; }
+    .style-30 .tri .infor a:hover {
+      background-color: white;
+      color: #6ccf69; }
+.style-30 .tri .cart {
+  opacity: 0;
+  transition: all 0.5s ease; }
+  .style-30 .tri .cart a {
+    position: absolute;
+    top: 42%;
+    left: 29%;
+    background-color: #6ccf69;
+    color: white;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 147px;
+    padding: 10px;
+    font-weight: bold; }
+    .style-30 .tri .cart a:hover {
+      background-color: white;
+      color: #6ccf69; }
+.style-30 .tri .gach-chan {
+  transition: width 0.5s ease;
+  height: 3px;
+  background-color: lime;
+  width: 0%; }
+.style-30 .tri:hover {
+  transition: all 0.5s ease; }
+  .style-30 .tri:hover .box-content {
+    opacity: 0.4; }
+  .style-30 .tri:hover .cart {
+    opacity: 1; }
+  .style-30 .tri:hover .infor {
+    opacity: 1; }
+  .style-30 .tri:hover .gach-chan {
+    transition: width 0.5s ease;
+    width: 100%; }
